@@ -1,0 +1,29 @@
+{
+  "name": "property-ttl",
+  "version": "1.0.0",
+  "description": "null out a property after ttl if it has not been accessed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soldair/property-ttl.git"
+  },
+  "keywords": [
+    "ttl",
+    "gc",
+    "cleanup",
+    "ttl",
+    "lru"
+  ],
+  "author": "Ryan Day <soldair@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soldair/property-ttl/issues"
+  },
+  "homepage": "https://github.com/soldair/property-ttl#readme",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  }
+}
